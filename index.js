@@ -71,7 +71,7 @@ async function startjobotz() {
     const jobotz = makeWASocket({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['THE JO BOT V3', 'Safari','1.0.0'],
+        browser: ['JO PRIVATE', 'Safari','1.0.0'],
         auth: state
     })
 
